@@ -3,7 +3,7 @@
 // Delete element from the array
 void deletion(int arr[], int n, int k){
     
-    //Shift elemnts to their right
+    //Shift elemnts to their left
     for (int i = k+1; i<n; i++){
         arr[i - 1] = arr[i];
     }
